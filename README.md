@@ -53,8 +53,7 @@ python3 app.py
 
 ### Tech used:
 
--Python Flask
--OMDB api
--python
--html
--css
+*Python Flask
+*OMDB api
+*html
+*css
