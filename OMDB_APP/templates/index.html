@@ -1,0 +1,11 @@
+{% extends 'layout.html' %} {% block heading %}
+<h1>Movie Search</h1>
+
+{% endblock heading %} {% block body %}
+
+<form action="{{url_for('multiple_results')}}" method="GET">
+    <label id="title" for="movie_title">Enter movie title here:</label>
+    <input type="text" name="movie_title" id="movie_title" />
+    <input type="submit" value="Search Movie" />
+</form>
+{% endblock body %}

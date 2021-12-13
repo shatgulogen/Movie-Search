@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>OMDB</title>
+        <link href="static/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <style>
+                body {
+                    background-image: url('static/background.jpeg');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                }
+            </style>
+            <nav>
+                <a href="/"
+                    ><input type="submit" value="Back to Search Page"
+                /></a>
+                <a href="/history"><input type="submit" value="History" /></a>
+            </nav>
+        </header>
+        {% block heading %} {% endblock heading %} {% block body %} {% endblock
+        body %}
+    </body>
+</html>

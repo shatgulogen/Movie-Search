@@ -1,0 +1,12 @@
+{% extends 'layout.html' %} {% block heading %}
+<h1>Movie Search</h1>
+
+{% endblock heading %} {% block body %}
+<ul>
+    {% for data in movie_info_json_list['Search'] %}
+    <li>
+        <a href="/movie?movie_title={{data['Title']}}">{{data['Title']}}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock body %}
