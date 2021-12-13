@@ -49,11 +49,11 @@ python3 app.py
 
 ### Resource and documentation
 
--   [Open movie database API](http://www.omdbapi.com/)
+-    Open movie database API](http://www.omdbapi.com/)
 
 ### Tech used:
 
-##Python Flask
-##OMDB api
-##html
-##css
+-    Python Flask
+-    OMDB api
+-    html
+-    CSS
