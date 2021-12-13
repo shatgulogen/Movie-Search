@@ -34,7 +34,7 @@ Run the web app in terminal
 python3 app.py
 ```
 
-#This is a back-end web app which allows users to search for movies and obtain the list of movies as a set of links. The data is fetched from the Open Movie Database API - OMDB API. Users search history will be stored in /history.
+-    This is a back-end web app which allows users to search for movies and obtain the list of movies as a set of links. The data is fetched from the Open Movie Database API - OMDB API. Users search history will be stored in /history.
 
 ### diagram of client server architecture
 
